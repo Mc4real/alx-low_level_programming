@@ -7,9 +7,9 @@
  *
  * Return: If the function fails - -1.
  *         Otherwise - 1.
- * this function creates a file with the given name and 
- * writes the provided text content to it. It returns -1 if there 
- * was an error during file creation or writing, and 1 if the file 
+ * this function creates a file with the given name and
+ * writes the provided text content to it. It returns -1 if there
+ * was an error during file creation or writing, and 1 if the file
  * was created successfully.
  */
 int create_file(const char *filename, char *text_content)

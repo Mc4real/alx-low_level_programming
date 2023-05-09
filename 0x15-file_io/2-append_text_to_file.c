@@ -9,9 +9,9 @@
  *         If the file does not exist the user lacks write permissions - -1.
  *         Otherwise - 1.
  *
- *         Overall, this function appends the provided text content to the 
- *         specified file. It returns -1 if there was an error during file 
- *         opening or writing, and 1 if the text was successfully appended to the file.
+ * Overall, this function appends the provided text content to the
+ * specified file. It returns -1 if there was an error during file
+ * opening or writing, and 1 if successful appended to the file.
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
